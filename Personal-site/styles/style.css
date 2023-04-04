@@ -1,0 +1,453 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+body{
+    font-family: Source-Sans-Pro, Roboto, sans-serif;
+}
+/*Header Elements*/
+nav {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu {
+    display: flex;
+    list-style: none;
+}
+
+nav .menu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+nav .menu  li a:hover{
+    background: rgb(255, 94, 0);
+    color: black;
+    border-radius: 20px;
+}
+
+span {
+    color: red;
+}
+
+nav .logo {
+    margin: 6px;
+    font-size: 25px;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+nav .logo a {
+    background: #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*MAIN*/
+
+main {
+    background-color: #219ebc;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);    
+    
+}
+
+
+
+.projects{
+    width: 120px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #000;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.projects:hover {
+    background-color: rgb(255, 94, 0);
+    color: #000;
+    text-decoration: none;
+    border: 3px solid rgb(255, 94, 0);
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.hero{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 1.2rem;
+    width:50px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.name {
+    width: 350px;
+    color: #000;
+}
+
+.design {
+    width: 236px;
+    color: #000;
+}
+
+.button {
+    width: 140px;
+    height: 57px;
+    border-radius: 10px;
+    background-color: #000;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    text-decoration: none;   
+}
+
+
+.button:hover{
+    background-color: rgb(255, 94, 0);
+    color: #000;
+    text-decoration: none;
+    border: 3px solid rgb(255, 94, 0);
+}
+
+
+.img1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.img2 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.img3 {
+    grid-row: 2/3;
+    grid-column: 5/6;
+    margin-top: 100px;
+}
+
+
+.join {
+    background-color:rgb(81, 201, 11) ;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;  
+}
+
+.join:hover {
+    background-color: rgb(255, 94, 0);
+    color: #000;
+    border: 3px solid rgb(255, 94, 0);
+    border-radius: 10px;
+}
+
+.msg {
+    background-color: #0671a7;
+    color: #000;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 60px;
+    margin-bottom: 40px; 
+    grid-column: 4/5;
+     
+}
+
+.msg p {
+    color: black;
+    font-size: 1.1em;
+    padding-bottom: 15px;
+}
+
+.msg h2 {
+    color: black;
+    font-family: Roboto, serif;
+}
+
+.msg h4 {
+    color: #000;
+    font-family: Roboto, serif;
+}
+
+
+
+/*footer*/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: grid;
+    font-family: Sans-Serif-Pro;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+
+    
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none; 
+}
+   
+
+footer a:hover {
+    background-color:rgb(255, 94, 0);
+    color: black;
+    border: 7px solid rgb(255, 94, 0);
+    border-radius: 7px;
+}
+
+footer p {
+    font-size: 1.2em; 
+}
+
+footer .copy {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    margin-left: 159px;
+}
+
+footer .navi{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+footer .navig {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+footer .naviga{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+footer .social {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    margin-right: 18px;
+    margin-top: 10px;
+    
+    
+}
+
+footer p a:hover {
+    text-decoration: none;
+}
+
+
+/*Projects*/
+
+.subtext {
+    font-size: 24px;
+    margin: 0;
+    font-family: San-Serif-Pro, sans-serif;
+    font-style: italic;
+    color: #fff;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+
+.project-card {
+    width: 270px;
+    height: 520px;
+    box-shadow: 5px 20px #000;
+    margin: 20px;
+    
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap:  wrap;
+    }
+}
+
+.projects-image {
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 127px;
+}
+
+
+hr {
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color:  #000;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.project-link:hover{
+    background-color: rgb(255, 94, 0);
+    color: #fff;
+    padding: 10px;
+    margin: 15px;
+    border: 10px solid rgb(255, 94, 0);
+    border-radius: 20px;
+}
+
+
+.proj{
+    background-color:#219ebc;
+    margin: 0;
+    padding: 0;
+}
+
+.proj h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+div h3 {
+    font-size: 30px;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin: 15px;
+    color: #fff;
+}
+
+div p a {
+    margin-top: 20px;
+}
+
+
+
+/*Contact*/
+
+#contact {
+    padding: 80px;
+    background-color: black;
+    color: white;
+    font-family: San-Serif-Pro, sans-serif;
+    text-align: center;
+}
+
+
+#contact h2 {
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#contact img {
+    border-radius: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/*ABOUT ME*/
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+ 
+}
+
+
+.aboutme-image{
+    grid-column: 2/3;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 80px;
+    margin-bottom: 70px; 
+    border: 3px solid #000; 
+    
+}
+
+
+.aboutme-paragraph {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-top: 68px;
+    margin-bottom: 68px;
+    font-size: 1.5rem;
+    margin-left: 28px;
+    margin-right: 8px;
+    border: 3px solid #000;
+
+
+    
+}
+
+
+.aboutme-title {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: Roboto, Source-Sans-Pro;
+}
